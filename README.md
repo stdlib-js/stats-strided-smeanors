@@ -63,6 +63,11 @@ The [arithmetic mean][arithmetic-mean] is defined as
 ## Usage
 
 ```javascript
+import smeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanors@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-strided-smeanors/tags). For example,
+
+```javascript
 import smeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanors@v0.1.0-esm/index.mjs';
 ```
 
@@ -166,7 +171,7 @@ var v = smeanors.ndarray( 4, x, 2, 1 );
 <script type="module">
 
 import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-discrete-uniform@esm/index.mjs';
-import smeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanors@v0.1.0-esm/index.mjs';
+import smeanors from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-strided-smeanors@esm/index.mjs';
 
 var x = discreteUniform( 10, -50, 50, {
     'dtype': 'float32'
